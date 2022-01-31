@@ -1,0 +1,81 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	background-color: white;
+	font-family: 'Lucida Sans' ,'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-image: url("icon.png");
+}
+.title{
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+	background-color:  #000066;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.full_body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.form-input{
+	border:none;
+	outline: none;
+	background-color: white;
+	padding: 10px 20px;
+	border:1px solid grey;
+	margin-right: 20px;
+}
+.form-input:focus{
+	background-color: white;
+}
+.search{
+	border:none;
+	outline: none;
+	background-color: violet;
+	padding: 10px 20px;
+	color: white;
+	font-family: 'Lucida Sans' ,'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.search-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px;
+}
+.movie-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("md.png");
+}
+.card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: #996633;
+	margin: 20px;
+	padding: 30px;
+	width: 700px;
+
+}
+.movie-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	margin: 0px 200px;
+
+}
+.value{
+	font-size: 15px;
+	width: 200px;
+}
